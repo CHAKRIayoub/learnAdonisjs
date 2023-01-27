@@ -15,6 +15,8 @@ Then clone the repo and then run
 npm install
 ```
 
+Copy/past `.env.example` & rename'it to `.env`
+
 
 Use the adonis command to run the server
 
