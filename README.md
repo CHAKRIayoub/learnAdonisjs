@@ -1,24 +1,26 @@
-# Adonis fullstack application
-
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
-
-## Setup
 
 
-clone the repo and then run `npm install`.
+## How to install
+
+Firt install adonis globaly
+
+```bash
+npm i --global @adonisjs/cli
+```
 
 
-Use the adonis command to install the blueprint
+Then clone the repo and then run
+
+```bash
+npm install
+```
+
+
+Use the adonis command to run the server
 
 ```bash
 adonis serve --dev
 ```
+
+
+update REST APIs inside `repo\start\routes.js`
